@@ -51,6 +51,9 @@ TODO
 
 * Add Documentation.
 * Add Blog Post regarding each of the above.
+* Add Sublime-Text dotfiles
+* Add tmux dotfiles
+
 
 
 
