@@ -31,7 +31,6 @@ Technical Specs
 :byobu: All dotfiles related to byobu.
 :oh-my-zsh: All dotfiles related to oh-my-zsh themes.
 :git: All dotfiles related to git
-:powerline: All dotfiles related to powerline statuses.
 :submlime-text: All dotfiles related to sublime text 3 and installed packages.
 :bash: All dotfiles related to bash shell.
 :iterm2: All dotfiles related to iterm2 terminal emulater.
