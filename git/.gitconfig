@@ -1,0 +1,31 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Anirban Roy Das
+	email = anirban.nick@gmail.com
+
+[github]
+	username = anirbanroydas
+
+[apply]
+	whitespace = fix
+
+[grep]
+	lineNumber = true
+
+[color]
+	ui = true
+
+[alias]
+	b = branch
+	c = commit
+	s = status
+	g = git
+	p = push
+	pu = pull
+	a = add
+
+
+[help]
+	autocorrect = 1
+
