@@ -24,8 +24,17 @@
 	p = push
 	pu = pull
 	a = add
+	m = merge
+	ck = checkout
+	l = log
+	f = fetch
+	o = origin
+	m = master
+
 
 
 [help]
 	autocorrect = 1
 
+[core]
+	editor = vim
