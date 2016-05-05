@@ -115,9 +115,16 @@ alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
 alias gpom='git push origin master'
-alias gpo='git pull origin'
 alias grm='git rm'
 alias gmv='git mv'
+alias gb='git branch'
+alias gl='git log'
+alias gf='git fetch'
+alias gpo='git push origin'
+alias gpu='git pull'
+alias gck='git checkout'
+alias gm='git merge'
+
 
 ###
 # powerline config

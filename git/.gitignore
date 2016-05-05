@@ -11,6 +11,13 @@ __pycache__/
 .DS_S*
 
 
+# Compressed format
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+
 # Distribution / packaging
 .Python
 env/
@@ -58,6 +65,8 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+docs/_static/
+docs/_template/
 
 # PyBuilder
 target/
@@ -68,4 +77,5 @@ target/
 #pyenv
 .python-version
 
-
+# Windows config
+*.bat
