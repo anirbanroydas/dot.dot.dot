@@ -147,8 +147,8 @@ export LANG=en_US.UTF-8
 ##############################################
 # Source .zshrc file alias
 ##############################################
-alias s= 'source'
-alias sz= 'source ~/.zshrc'
+alias s='source'
+alias sz='source ~/.zshrc'
 
 
 ##########################################################
@@ -190,13 +190,13 @@ alias ga='git add'
 # git add filename
 alias gc='git commit'
 # git commit -m 'commite msg'
-alias gcm= 'git commit -m'
+alias gcm='git commit -m'
 # git commit -m 'commite msg"
-alias gcam= 'git commit -am'
+alias gcam='git commit -am'
 # git commit -a -m 'commit msg' -> implicitly does git add * and then git commit -m 'commit msg'
 alias grm='git rm'
 # git rm [filename] -> untracks the filed and deletes from disk
-alias grmc= 'git rm --cached'
+alias grmc='git rm --cached'
 # git rm --cached [filename] -> untracks the file but doesn't delete from disk
 alias gmv='git mv'
 # git mv filename
@@ -208,36 +208,36 @@ alias gmv='git mv'
 ######################
 # git log
 ######################
-alias gl= 'git log'
-alias glpo= 'git log --pretty=oneline'
-alias glg= 'git log --graph'
-alias glpfg= 'git log --pretty=format: "%h %s" --graph'
+alias gl='git log'
+alias glpo='git log --pretty=oneline'
+alias glg='git log --graph'
+alias glpfg='git log --pretty=format: "%h %s" --graph'
 
 
 
 #########################
 # git remote
 ##########################
-alias gr= 'git remote'
+alias gr='git remote'
 # shows the remote branches
-alias grv= 'git remote -v'
+alias grv='git remote -v'
 # show remote branches verbose
-alias grs= 'git remote show'
+alias grs='git remote show'
 # git remote show [remote-name]
 # Eg : git remote show origin, git remote show upstream
-alias grso= 'git remote show origin'
-alias grr= 'git remote rename'
+alias grso='git remote show origin'
+alias grr='git remote rename'
 # git remote rename [remote-name] [new-remote-name]
 # Eg : git remtoe rename origin super
 # Eg : git remote rename pb paul
-alias grrm= 'git remote rm'
+alias grrm='git remote rm'
 # git remote rm [remote-name]
 # git remote rm paul
-alias grrmo= 'git remote rm origin'
-alias gra= 'git remote add'
+alias grrmo='git remote rm origin'
+alias gra='git remote add'
 # git remote add [remote-name] [remote-url]
 # eg : git remote add upstream https://github.com/samuel/sockjs.git
-alias grao= 'git remote add origin'
+alias grao='git remote add origin'
 # git remote add origin [remote-url]
 #
 #
@@ -247,11 +247,11 @@ alias grao= 'git remote add origin'
 ######################################
 # git fetch
 #######################################
-alias gf= 'git fetch'
+alias gf='git fetch'
 # git fetch [remote-name]'
 # git fetch origin
 # git fetch team
-alias gfo= 'git fetch origin'
+alias gfo='git fetch origin'
 # git fetch [remote-name]/[branch-name]
 # git fetch team/serverfault
 #
@@ -262,25 +262,25 @@ alias gfo= 'git fetch origin'
 ##################################
 # git pull
 ####################################
-alias gpu= 'git pull' 
+alias gpu='git pull' 
 # git pull [remote-name]
 # eg: git pull team -> shorthand for git pull team/master
 # eg: git pull origin -> shorthand for git pull origin/master
 # git pull [remote-name]/[remote-branch]
 # git pull team/server
-alias gpuo= 'git pull origin'
-alias gpuom= 'git pull origin/master'
+alias gpuo='git pull origin'
+alias gpuom='git pull origin/master'
 
 
 
 ##########################################
 # git push
 ###########################################
-alias gp= 'git push'
+alias gp='git push'
 # git push [rmeote-name] [branch-name] -> pushes local branch-name to remote-brnachname, if not present remotely, will be created -> doesn't merget branh-cname to remote/master
-alias gpo= 'git push origin'
+alias gpo='git push origin'
 #git push origin [branchname]
-alias gpom= 'git push origin master'
+alias gpom='git push origin master'
 # pushed local mster to remote master which are defaults
 # git checkout -b [local-branchname] [remote-name]/[remote-branchname] -> git checkout -b serverfix origin/serverfix
 #
@@ -291,7 +291,7 @@ alias gpom= 'git push origin master'
 #######################################################
 # git track
 ########################################################
-alias gtrk= 'git checkout --track'
+alias gtrk='git checkout --track'
 # git checkout --track [remote-name]/[remote-branch] -> creates new local branch of same name and tracks the remote-branch
 # git checkout -b [branch] [remote]/[branch] -> automatically creates local [branch] and  starts tracking, and is a shorthand for above command
 # git clone remote-url -> automateically creates local master branch and strats tracking origin/master at remote
@@ -304,7 +304,7 @@ alias gtrk= 'git checkout --track'
 #########################################################
 # git delete remote branch
 ##########################################################
-alias gdb= 'git push origin --delete'
+alias gdb='git push origin --delete'
 # git push origin --delete [branchname] 
 # more general : git push [remote-name] --delete [branchname]
 #
@@ -315,15 +315,15 @@ alias gdb= 'git push origin --delete'
 ############################################
 # git tag
 #############################################
-alias gt= 'git tag'
+alias gt='git tag'
 # shows the available tags present
 # also, git tag [tag-version-name] -> creats a new lightweight tag
-alias gsh= 'git show'
+alias gsh='git show'
 # git show [tag-name]
-alias gta= 'git tag -a'
+alias gta='git tag -a'
 # git tag -a [tag-name] -m "tag-msg"
 # also, git tag -a [tag-name] [abbr commt hash] -> creates a tag of a previous committ
-alias gpot= 'git push origin --tags'
+alias gpot='git push origin --tags'
 # git push [remote-name] [tab-version-name]
 # Also, git checkout -b [branch name] [tag-version-name] -> creates a branch [branchname] starting with head pointing to the [tag-version-name] commit
 #
@@ -334,9 +334,9 @@ alias gpot= 'git push origin --tags'
 ################################
 # git branch
 ################################
-alias gb= 'git branch'
+alias gb='git branch'
 # show branches, also used as git branch command prefix - git branch [branch-name] ->creats branch
-alias gbd= 'git branch -d'
+alias gbd='git branch -d'
 #git branch -d [branchname] -> deletess branchname
 #
 
@@ -345,10 +345,10 @@ alias gbd= 'git branch -d'
 ########################################################
 # git checkout
 #########################################################
-alias gchk= 'git checkout'
+alias gchk='git checkout'
 # git checkout [branchname]
-alias gchkm= 'git checkout master'
-alias gchkb= 'git checkout -b'
+alias gchkm='git checkout master'
+alias gchkb='git checkout -b'
 # git checkout -b [new-brannchname] [source-branchname] -> shortcut to create branch and checkout with one command, default [source-branchname] is master, hence not used, othewise have to be used.
 #
 #
@@ -358,11 +358,11 @@ alias gchkb= 'git checkout -b'
 ####################################################
 # git merge
 ####################################################
-alias gm= 'git merge'
+alias gm='git merge'
 # git merge [branchname] -> merges [branchname] with the current working branch
-alias gmnoff= 'git merge --no-ff'
+alias gmnoff='git merge --no-ff'
 # git merge --no-ff [branchname] -> git merge without fast-forward to creat a separate merge commit 
-alias gma= 'git merge --abort'
+alias gma='git merge --abort'
 #tries to revert back to your state before you ran the merge. The only cases where it may not be able to do this perfectly would be if you had unstashed, uncommitted changes in your working directory when you ran it, otherwise it should work fine.
 # git reset --hard HEAD -> it will return your repo to last commited state , all uncommitted changed will be lost 
 #
@@ -373,41 +373,41 @@ alias gma= 'git merge --abort'
 ###################################################
 # git rebase
 ####################################################
-alias grb= 'git rebase' 
+alias grb='git rebase' 
 # git rebase [branchname] -> rebase current working branch with [branchname]
 # Also, git rebase [basebranch] [topicbranch]
-alias grbm= 'git rebase master'
+alias grbm='git rebase master'
 			
 
 
 #########################################
 # git stash
 #########################################
-alias gst= 'git stash'
+alias gst='git stash'
 # creats a new stash
-alias gsts= 'git stash save'
+alias gsts='git stash save'
 # same as git stash
-alias gstl= 'git stash list'
+alias gstl='git stash list'
 # show list of stashes
-alias gsta= 'git statsh apply'
+alias gsta='git statsh apply'
 # repply the most recent stash in workin directoy of whichever curretn branch
-alias gstas@= 'git stash apply stash@'
+alias gstas@='git stash apply stash@'
 # git stash apply stash@{2}
-alias gstai= 'git stash apply --index'
+alias gstai='git stash apply --index'
 # to make the stages changes persist otherwise stages changes comes to unstaged
-alias gstd= 'git stash drop'
+alias gstd='git stash drop'
 # applying stash doesn't remove it form stack, so drop removes the latest stash from stack
-alias gstds@= 'git stash drop stash@'
+alias gstds@='git stash drop stash@'
 # git stash drop stash@{2}
-alias gstp= 'git stash pop'
+alias gstp='git stash pop'
 # alternatively you can pop the stsash from stack by above command one by one
-alias gstki= 'git stash --keep-index'
+alias gstki='git stash --keep-index'
 # stashes the unstaged modified files, and doesn't stash the staged files
-alias gstiu= 'git stash --include-untracked'
+alias gstiu='git stash --include-untracked'
 # by default git stashed only indexed files and not the untracked files, with the above command it will stash the untracked files too
-alias gstb= 'git stash branch'
+alias gstb='git stash branch'
 # git stash branch [branchname] -> creates a new [branchname] and applies last commit when stashing and then applies the stash on the new branch and pops the stash, original branch is clean.
-alias gstc= 'git clean'
+alias gstc='git clean'
 # removes stashed completely
 #
 
@@ -426,7 +426,7 @@ alias gstc= 'git clean'
 # “Can you rewrite your commit’s message to describe better the problem it solves, and how it solves it?”.
 
 ###########  Reword last commit message ##########
-alias grwlcm=  'git commit --amend' 
+alias grwlcm='git commit --amend' 
 # It will open an editor with the last commit message, so you can modify it. After saving, a new commit will be created with the same changes and the new message, replacing the commit with the previous message.
 # Also ->
 # This can be useful to include files you forgot to track, or include modifications to the files you just commited. To do so, you can add the changes and then perform the amend:
@@ -437,7 +437,7 @@ alias grwlcm=  'git commit --amend'
 
 ############  Reword other commit messages ##########
 ##### Interractive Rebase #####
-alias grbi= 'git rebase -i'
+alias grbi='git rebase -i'
 # git rebase -i [branch/commit/HEAD~{pos}]
 # eg: git rebase -i HEAD~4
 # Let’s say I want to reword any of the last 4 commits of this blog.# It opens up editor and then we can reword/ squash/ pick/ edit etc to each commit individually
@@ -477,17 +477,17 @@ alias grbi= 'git rebase -i'
 #############################################
 # git Undoing things
 ##############################################
-alias gundos= 'git reset --soft'
+alias gundos='git reset --soft'
 # git reset --soft [commit/HEAD~{pos}]
 # eg : git reset --soft HEAD~1
-alias gundoi= 'git reset --mixed'
+alias gundoi='git reset --mixed'
 # git reset --mixed [commit/HEAD~{pos}]
 # eg: git reset --mixed HEAD~1
 # this is equivalent to git reset [commit/HEAD~{pos}]
-alias gundoh= 'git reset --hard'
+alias gundoh='git reset --hard'
 # git reset --hard [commit/HEAD~{pos}]
 # eg: git reset --hard HEAD~1
-alias gundof= 'git reset'
+alias gundof='git reset'
 # git reset [filename] -> is equivalen to
 # git reset --mixed [commit/HEAD ~{pos}] [filename]
 # eg: git reset file1.txt -> git reset --mixed HEAD file1.txt
@@ -499,7 +499,7 @@ alias gundof= 'git reset'
 #################################################
 # git reflog
 #################################################
-alias grefl= 'git reflog'
+alias grefl='git reflog'
 # Git keeps track of updates to the tip of branches using a mechanism called reflog. This allows you to go back to changesets even though they are not referenced by any branch or tag. After rewriting history, the reflog contains information about the old state of branches and allows you to go back to that state if necessary.
 # Every time the current HEAD gets updated (by switching branches, pulling in new changes, rewriting history or simply by adding new commits) a new entry will be added to the reflog.
 # eg : git reflog
