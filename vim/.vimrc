@@ -74,6 +74,8 @@ colorscheme monokai
 " python powerline_setup()
 " python del powerline_setup
 
+
+set number
 set laststatus=2
 set t_Co=256
 let g:Pwerline_symbols = 'fancy'
