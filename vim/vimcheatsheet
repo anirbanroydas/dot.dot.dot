@@ -1,0 +1,61 @@
+##############################
+# Vim CheatSheet
+###############################
+#
+#### e ##### 
+# Move to the end of a word.
+#### w #####
+# Move forward to the beginning of a word.
+#### W ##### 
+# Move forward a WORD (any non-whitespace characters).
+#### b #####
+# Move backward to the beginning of a word.
+#### $ #####
+# Move to the end of the line.
+#### 0 ##### 
+# Move to the beginning of the line.
+#### ) ##### 
+# Jump forward one sentence.
+#### ( ##### 
+# Jump backward one sentence.
+#### } #####
+# Jump forward one paragraph.
+#### { ##### 
+# Jump backward one paragraph.
+#### H ##### 
+# Jump to the top of the screen.
+#### M ##### 
+# Jump to the middle of the screen.
+#### L #####
+# Jump to the bottom of the screen.
+#### G ##### 
+# Jump to end of file.
+#### 1G #####
+# Jump to beginning of file (same as gg).
+#### 50G #####
+# Jump to line 50.
+
+#### v #####
+# Select a word
+#### V #####
+# Select a line
+##### d ######
+# Cut or Delete selection
+##### Y ######
+# Copy Selection
+##### dw #####
+# delete a word
+##### dd #####
+# delete a line
+##### . ######
+# repeat last command
+##### u ######
+# Undo last command
+##### CTRL+r  #####
+# redo last command
+##### :red[count] ####
+# redo count number of times
+#
+
+
+
